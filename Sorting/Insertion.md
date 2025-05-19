@@ -19,7 +19,7 @@ class InsertionSort {
                 arr[j] = temp;
                 j--;
             }
-        }
+        } 
     }
       
       public static void main(String args[]) {

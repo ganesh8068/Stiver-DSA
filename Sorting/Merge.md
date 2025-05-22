@@ -1,8 +1,8 @@
-# Java Programs: Insertion Sort
+# Java Programs: Merge Sort
 
 ---
 
-## Insertion Sort
+## Merge Sort
 
 ### 📄 File:
 

@@ -1,6 +1,6 @@
 # Java Programs: Quick Sort
 
----
+--- 
 
 ## Quick Sort
 

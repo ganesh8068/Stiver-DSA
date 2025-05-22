@@ -2,7 +2,7 @@
 
 ---
 
-## Merge Sort
+## Merge Sort 
 
 ### 📄 File:
 

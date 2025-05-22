@@ -55,6 +55,7 @@ class Sort {
         int n = sc.nextInt();
         int arr[] = new int[n];
         for (int i = 0; i < n; i++) {
+
             arr[i] = sc.nextInt();
         }
 
@@ -68,3 +69,6 @@ class Sort {
 }
 
 ```
+
+ # Time complexcity: n log n 
+# Sapce complexcity: O n

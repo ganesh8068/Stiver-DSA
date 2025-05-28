@@ -107,7 +107,122 @@ public class Main {
 }
 ```
 
-##
+## Left Rotate an array by one place
+
+### 📄 Code:
+
+```java
+class Main {
+    public static void main(String args[]) {
+        int[] arr = {1, 2, 3, 4, 5};
+        int n = arr.length;
+        int temp = arr[0];
+        for (int i = 1; i < n; i++) {
+            arr[i-1] = arr[i];
+        }
+         
+        arr[n-1] = temp;
+        
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr[i]+ " ");
+        }
+    }
+}
+
+```
+
+## Left rotate an array by D places
+
+### 📄 Code:
+
+```java
+import java.util.*;
+
+class Main {
+    public static void main(String args[]) {
+        int[] arr = {1, 2, 3, 4, 5};
+        int n = arr.length;
+        int d = 2; 
+
+        List<Integer> temp = new ArrayList<>();
+        
+        for (int i = 0; i < d; i++) {
+            temp.add(arr[i]);
+        }
+        
+        for (int i = d; i < n; i++) {
+            arr[i - d] = arr[i];
+        }
+        
+        for (int i = 0; i < temp.size(); i++) {
+            arr[n - d + i] = temp.get(i);
+        }
+        
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr[i] + " ");
+        }
+    }
+}
+```
+
+## Move Zeros to end
+
+### 📄 Code:
+
+```java
+
+```
+
+## Linear Search
+
+### 📄 Code:
+
+```java
+
+```
+
+
+## Find the Union
+
+### 📄 Code:
+
+```java
+
+```
+
+## Find missing number in an array
+
+### 📄 Code:
+
+```java
+
+```
+
+## Maximum Consecutive Ones
+
+### 📄 Code:
+
+```java
+
+```
+
+## Find the number that appears once, and other numbers twice
+
+### 📄 Code:
+
+```java
+
+```
+
+## Longest subarray with given sum K(positives)
+
+### 📄 Code:
+
+```java
+
+```
+
+## Longest subarray with sum K (Positives + Negatives)
 
 ### 📄 Code:
 

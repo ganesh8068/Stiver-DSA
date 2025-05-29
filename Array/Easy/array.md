@@ -309,7 +309,24 @@ class TUF {
 ### 📄 Code:
 
 ```java
+class Main {
+    public static void main(String args[]) {
+        int arr[] = {1, 2, 3, 5, 6};
+        int xorArr = 0, xorFull = 0;
+        int n = arr.length;
 
+        for (int i = 0; i < n; i++) {
+            xorArr ^= arr[i];
+        }
+
+        for (int i = 1; i <= n + 1; i++) {
+            xorFull ^= i;
+        }
+
+        int missing = xorArr ^ xorFull;
+        System.out.println("Missing number is: " + missing);
+    }
+}
 ```
 
 ## Maximum Consecutive Ones
@@ -317,6 +334,32 @@ class TUF {
 ### 📄 Code:
 
 ```java
+public class Solution {
+    public int MaxConsecutiveOnes(int[] nums) {
+        int max = 0;
+        int count = 0;
+
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == 1) {
+                count++;
+                if (count > max) {
+                    max = count;
+                }
+            } else {
+                count = 0;
+            }
+        }
+
+        return max;
+    }
+
+    public static void main(String[] args) {
+        Solution sol = new Solution();
+        int[] nums = {1, 1, 0, 1, 1, 1};
+        int result = sol.MaxConsecutiveOnes(nums);
+        System.out.println("Max consecutive 1s: " + result);
+    }
+}
 
 ```
 
@@ -325,7 +368,18 @@ class TUF {
 ### 📄 Code:
 
 ```java
-
+class Main {
+    public static void main(String args[]) {
+        int arr[] = {2,2,1};
+        int xor = 0;
+        
+        for (int i = 0; i < arr.length; i++) {
+            xor = xor ^ arr[i];
+        }
+        
+        System.out.println(xor);
+    }
+}
 ```
 
 ## Longest subarray with given sum K(positives)

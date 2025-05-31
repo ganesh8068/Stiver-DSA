@@ -28,7 +28,98 @@ class Solution {
 }
 ```
 
-## 
+## Sort an array of 0's 1's and 2's
+
+### 📄 Code:
+
+```java
+import java.util.*;
+
+public class Main {
+    public static void sortArray(ArrayList<Integer> arr, int n) {
+        int low = 0, mid = 0, high = n - 1; 
+        while (mid <= high) {
+            if (arr.get(mid) == 0) {
+                int temp = arr.get(low);
+                arr.set(low, arr.get(mid));
+                arr.set(mid, temp);
+
+                low++;
+                mid++;
+
+            } else if (arr.get(mid) == 1) {
+                mid++;
+
+            } else {
+                int temp = arr.get(mid);
+                arr.set(mid, arr.get(high));
+                arr.set(high, temp);
+
+                high--;
+            }
+        }
+    }
+
+    public static void main(String args[]) {
+        int n = 6;
+        ArrayList<Integer> arr = new ArrayList<>(Arrays.asList(new Integer[] {0, 2, 1, 2, 0, 1}));
+        sortArray(arr, n);
+        System.out.println("After sorting:");
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr.get(i) + " ");
+        }
+        System.out.println();
+
+    }
+
+}
+
+```
+
+## Majority Element (>n/2 times)
+
+### 📄 Code:
+
+```java
+
+
+
+import java.util.*;
+
+public class tUf {
+    public static int majorityElement(int []v) {
+        int n = v.length;
+        int cnt = 0; 
+        int el = 0; 
+        for (int i = 0; i < n; i++) {
+            if (cnt == 0) {
+                cnt = 1;
+                el = v[i];
+            } else if (el == v[i]) cnt++;
+            else cnt--;
+        }
+
+        int cnt1 = 0;
+        for (int i = 0; i < n; i++) {
+            if (v[i] == el) cnt1++;
+        }
+
+        if (cnt1 > (n / 2)) return el;
+        return -1;
+    }
+
+    public static void main(String args[]) {
+        int[] arr = {2, 2, 1, 1, 1, 2, 2};
+        int ans = majorityElement(arr);
+        System.out.println("The majority element is: " + ans);
+
+    }
+
+}
+
+```
+
+## Kadane's Algorithm, maximum subarray sum
 
 ### 📄 Code:
 
@@ -36,7 +127,79 @@ class Solution {
 
 ```
 
-## 
+## Print subarray with maximum subarray sum (extended version of above problem)
+
+### 📄 Code:
+
+```java
+
+```
+
+## Stock Buy and Sell
+
+### 📄 Code:
+
+```java
+
+```
+
+## Rearrange the array in alternating positive and negative items
+
+### 📄 Code:
+
+```java
+
+```
+
+## Next Permutation
+
+### 📄 Code:
+
+```java
+
+```
+
+## Leaders in an Array problem
+
+### 📄 Code:
+
+```java
+
+```
+
+## Longest Consecutive Sequence in an Array
+
+### 📄 Code:
+
+```java
+
+```
+
+## Set Matrix Zeros
+
+### 📄 Code:
+
+```java
+
+```
+
+## Rotate Matrix by 90 degrees
+
+### 📄 Code:
+
+```java
+
+```
+
+## Print the matrix in spiral manner
+
+### 📄 Code:
+
+```java
+
+```
+
+## Count subarrays with given sum
 
 ### 📄 Code:
 

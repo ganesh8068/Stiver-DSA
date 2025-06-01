@@ -86,7 +86,7 @@ public class Main {
 
 import java.util.*;
 
-public class tUf {
+public class Main {
     public static int majorityElement(int []v) {
         int n = v.length;
         int cnt = 0; 

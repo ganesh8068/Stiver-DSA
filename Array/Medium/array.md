@@ -118,7 +118,7 @@ public class Main {
 ```
 
 ## Using Kadane's Algorithm, maximum subarray sum
-
+LeetCode Question [Link](https://leetcode.com/problems/maximum-subarray/description/)
 ### 📄 Code:
 
 ```java
@@ -141,33 +141,10 @@ class Solution {
   }
 }
 
-LeetCode [Link](https://leetcode.com/problems/maximum-subarray/description/)
-```
-
-### 📄 Code:
-
-```java
-class Solution {
-    public int maxProfit(int[] prices) {
-        int buy = prices[0];
-        int profit = 0;
-        for (int i = 1; i < prices.length; i++) {
-            if (buy > prices[i]) {
-                buy = prices[i]; 
-            }
-
-            profit = Math.max(profit, prices[i] - buy);
-        }
-
-        return profit;
-    }
-}
-
-LeetCode [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 ```
 
 ## Stock Buy and Sell
-
+LeetCode [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 ### 📄 Code:
 
 ```java
@@ -187,7 +164,6 @@ class Solution {
     }
 }
 
-LeetCode [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 ```
 
 ## Rearrange the array in alternating positive and negative items

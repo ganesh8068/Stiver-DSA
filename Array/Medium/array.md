@@ -82,8 +82,6 @@ public class Main {
 
 ```java
 
-
-
 import java.util.*;
 
 public class Main {
@@ -119,20 +117,53 @@ public class Main {
 
 ```
 
-## Kadane's Algorithm, maximum subarray sum
+## Using Kadane's Algorithm, maximum subarray sum
 
 ### 📄 Code:
 
 ```java
+class Solution {
+  public int maxSubArray(int[] nums) {
+    int sum = 0;
+    int max = Integer.MIN_VALUE;
+    for (int i = 0; i < nums.length; i++) {
+      sum += nums[i];
+      
+      if (sum > max) {
+        max = sum;
+      }
+        
+      if (sum < 0) {
+        sum = 0;
+      }
+    }  
+    return max;
+  }
+}
 
+LeetCode [Link](https://leetcode.com/problems/maximum-subarray/description/)
 ```
 
-## Print subarray with maximum subarray sum (extended version of above problem)
-
 ### 📄 Code:
 
 ```java
+class Solution {
+    public int maxProfit(int[] prices) {
+        int buy = prices[0];
+        int profit = 0;
+        for (int i = 1; i < prices.length; i++) {
+            if (buy > prices[i]) {
+                buy = prices[i]; 
+            }
 
+            profit = Math.max(profit, prices[i] - buy);
+        }
+
+        return profit;
+    }
+}
+
+LeetCode [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 ```
 
 ## Stock Buy and Sell
@@ -140,7 +171,23 @@ public class Main {
 ### 📄 Code:
 
 ```java
+class Solution {
+    public int maxProfit(int[] prices) {
+        int buy = prices[0];
+        int profit = 0;
+        for (int i = 1; i < prices.length; i++) {
+            if (buy > prices[i]) {
+                buy = prices[i]; 
+            }
 
+            profit = Math.max(profit, prices[i] - buy);
+        }
+
+        return profit;
+    }
+}
+
+LeetCode [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 ```
 
 ## Rearrange the array in alternating positive and negative items

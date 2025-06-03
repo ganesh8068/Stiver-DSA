@@ -144,7 +144,7 @@ class Solution {
 ```
 
 ## Stock Buy and Sell
-LeetCode [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+LeetCode Question [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 ### 📄 Code:
 
 ```java
@@ -199,8 +199,13 @@ class Solution {
 
 ### 📄 Code:
 
-```java
-
+```cpp
+class Solution {
+public:
+    void nextPermutation(vector<int>& nums) {
+        next_permutation(nums.begin(), nums.end());
+    }
+};
 ```
 
 ## Leaders in an Array problem

@@ -213,6 +213,31 @@ public:
 ### 📄 Code:
 
 ```java
+import java.util.*;
+
+class Main {
+    static List<Integer> superelement(int[] a) {
+        List<Integer> ans = new ArrayList<>();
+        int maxi = Integer.MIN_VALUE ;
+        int n = a.length;
+
+        for (int i = n - 1; i >= 0; i--) {
+            if (a[i] > maxi) {
+                ans.add(a[i]);
+            }
+            maxi = Math.max(maxi, a[i]);
+        }
+
+        Collections.sort(ans);
+        return ans;
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {16, 17, 4, 3, 5, 2};
+        List<Integer> result = superelement(arr);
+        System.out.println("Super elements: " + result);
+    }
+}
 
 ```
 

@@ -242,7 +242,7 @@ class Main {
 ```
 
 ## Longest Consecutive Sequence in an Array
-
+LeetCode Question [Link](https://leetcode.com/problems/longest-consecutive-sequence/)
 ### 📄 Code:
 
 ```java
@@ -277,7 +277,7 @@ class Solution {
 ```
 
 ## Set Matrix Zeros
-
+LeetCode Question [Link](https://leetcode.com/problems/set-matrix-zeroes/description/)
 ### 📄 Code:
 
 ```java

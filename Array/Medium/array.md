@@ -339,15 +339,37 @@ class Solution {
 ```
 
 ## Print the matrix in spiral manner
-
+LeetCode Question [Link](https://leetcode.com/problems/spiral-matrix/)
 ### 📄 Code:
 
 ```java
+class Solution {
+    public List<Integer> spiralOrder(int[][] matrix) {
+        int row = matrix.length;
+        int col = matrix[0].length;
+        int x = 0, y = 0, dx = 1, dy = 0;
+        List <Integer> res = new ArrayList<>();
 
+        for (int i = 0; i < row * col; i++) {
+            res.add(matrix[y][x]);
+            matrix[y][x] = -101;
+
+            if (!(0 <= x + dx && x + dx < col && 0 <= y + dy && y + dy < row ) || matrix[y + dy] [x + dx] == -101) {
+
+                int temp = dx;
+                dx = -dy;
+                dy = temp;
+            }
+            x = x + dx;
+            y = y + dy;
+        }
+        return res;
+    }
+}
 ```
 
 ## Count subarrays with given sum
-
+LeetCode Question [Link](https://leetcode.com/problems/subarray-sum-equals-k/description/)
 ### 📄 Code:
 
 ```java

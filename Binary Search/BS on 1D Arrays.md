@@ -3,7 +3,7 @@
 ---
 
 ##  Binary Search to find X in sorted array
- 
+Leetcode Question [Link](https://leetcode.com/problems/binary-search/)
 ### 📄 File:
 ```java
 class Solution {

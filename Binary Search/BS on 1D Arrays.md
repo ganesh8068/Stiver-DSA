@@ -234,12 +234,39 @@ class Solution {
 }
 ```
 
-##  Search Insert Position (BS)
+##  Find Minimum and Maximum in Rotated Sorted Array
 LeetCode Question [Link]( )
 
 ### 📄 File: 
 
 ```java
+class Solution {
+    public int findMin(int[] nums) {
+        int n = nums.length;
+        int low = 0;
+        int high = n - 1;
+
+        while (low < high) {
+            int mid = low + (high - low) / 2;
+
+            // Smallest Element
+            if (nums[mid] > nums[high]) {
+                low = mid + 1;
+            } else {
+                high = mid;
+            }
+
+            // Maximum Element
+            // if (nums[mid] > nums[high]) {
+            //     low = mid;
+            // } else {
+            //     high = mid - 1;
+            // }
+        }
+
+        return nums[low];
+    }
+}
 
 ```
 

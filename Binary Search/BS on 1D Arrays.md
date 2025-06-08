@@ -235,7 +235,7 @@ class Solution {
 ```
 
 ##  Find Minimum and Maximum in Rotated Sorted Array
-LeetCode Question [Link]( )
+LeetCode Question [Link](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 
 ### 📄 File: 
 

@@ -335,7 +335,7 @@ class Main {
             xorArr ^= arr[i];
         }
 
-        for (int i = ; i <= n; i++) {
+        for (int i = 1; i <= n - 1; i++) {
             xorFull ^= i;
         }
 

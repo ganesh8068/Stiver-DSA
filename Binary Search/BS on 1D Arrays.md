@@ -270,6 +270,31 @@ class Solution {
 
 ```
 
+##  Find out how many times has an array been rotated
+
+### 📄 File: 
+
+```java
+class Solution {
+    public int findMin(int[] nums) {
+        int n = nums.length;
+        int low = 0;
+        int high = n - 1;
+
+        while (low < high) {
+            int mid = low + (high - low) / 2;
+
+            if (nums[mid] > nums[high]) {
+                low = mid + 1;
+            } else {
+                high = mid;
+            }
+        }
+        return low;
+    }
+}
+```
+
 ##  Single element in a Sorted Array (BS)
 LeetCode Question [Link](https://leetcode.com/problems/single-element-in-a-sorted-array/submissions/1659721705/)
 
@@ -310,4 +335,13 @@ class Solution {
 
     }
 }
+```
+
+##  Find out how many times has an array been rotated
+LeetCode Question [Link]()
+
+### 📄 File: 
+
+```java
+
 ```

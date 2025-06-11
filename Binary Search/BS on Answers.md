@@ -75,11 +75,68 @@ class Solution {
 ```
 
 ##  Find the smallest Divisor
-Leetcode Question [Link]()
+Leetcode Question [Link](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/description/)
 ### 📄 File:
 ```java
+Brute-Force approach 
 
+class Solution {
+  public int smallestDivisor(int[] nums, int threshold) {
+    int n = nums.length;
+    int sum = 0, high = 0;
+    for (int i = 0; i < n; i++) {
+      high = Math.max(nums[i], high);
+    }
+    for (int i = 1; i <= high; i++) {
+      int ans = 0;
+      for (int d = 0; d < n; d++) {
+        ans += Math.ceil((double)(nums[d]) / (double)(i));
+      }
+      if (ans <= threshold)
+        return i;
+    }
+    return -1;
+  }
+}
 ```
+```java 
+Optimal Approach
+
+class Solution {
+    private int sumByD(int[] arr, int div) {
+        int n = arr.length;
+        int sum = 0;
+        for (int i = 0; i < n; i++) {
+            sum += Math.ceil((double) arr[i] / div);
+        }
+        return sum;
+    }
+
+    public int smallestDivisor(int[] nums, int threshold) {
+        int n = nums.length;
+        if (n > threshold) return -1;  
+
+        int max = Integer.MIN_VALUE;
+        for (int num : nums) {
+            max = Math.max(max, num);
+        }
+
+        int low = 1, high = max;
+
+        while (low <= high) {
+            int mid = (low + high) / 2;
+            if (sumByD(nums, mid) <= threshold) {
+                high = mid - 1;  // Try smaller divisor
+            } else {
+                low = mid + 1;   // Need larger divisor
+            }
+        }
+
+        return low;
+    }
+}
+```
+
 
 ##  Capacity to Ship Packages within D Days
 Leetcode Question [Link]()

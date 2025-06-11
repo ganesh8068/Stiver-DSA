@@ -28,18 +28,50 @@ class Solution {
 }
 ```
 
-##  Koko Eating Bananas
-Leetcode Question [Link]()
-### 📄 File:
-```java
-
-```
-
 ##  Minimum days to make M bouquets 
-Leetcode Question [Link]()
+Leetcode Question [Link](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)
 ### 📄 File:
 ```java
+class Solution {
+    public static boolean possible (int[] arr, int day, int m, int k) {
+        int n = arr.length;
+        int cnt = 0, noB = 0;
 
+        for (int i = 0; i < n; i++) {
+            if (arr[i] <= day) {
+                cnt++;
+            } else {
+                noB += (cnt / k);
+                cnt = 0;
+            }
+        }
+        noB += (cnt / k);
+        return noB >= m;
+    }
+
+    public int minDays(int[] arr, int m, int k) {
+        int n = arr.length;
+        if ((long) m * k > n) return -1;
+
+        int mini = 0, max = 0;
+        for (int i = 0; i < n; i++) {
+            mini = Math.min(arr[i], mini);
+            max = Math.max(arr[i], max);
+        }
+
+        int low = mini, high = max;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            if (possible(arr, mid, m, k)) {
+                high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
+        }
+
+        return low;
+    }
+}
 ```
 
 ##  Find the smallest Divisor

@@ -139,6 +139,48 @@ class Solution {
 
 
 ##  Capacity to Ship Packages within D Days
+Leetcode Question [Link](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/)
+### 📄 File:
+```java
+
+class Solution {
+    public int shipWithinDays(int[] weights, int days) {
+        int max = 0;
+        int sum = 0;
+        int n = weights.length;
+
+        for (int i = 0; i < n; i++) {
+            sum += weights[i];
+            max = Math.max(max, weights[i]);
+        }
+
+        int low = max, high = sum;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            
+            int currentLoad = 0;
+            int requirdDays = 1;
+
+            for (int i = 0; i < n; i++) {
+                if (currentLoad + weights[i] > mid) {
+                    requirdDays++;
+                    currentLoad = 0;
+                }
+                currentLoad += weights[i];
+            }
+
+            if (requirdDays <= days) {
+                high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
+        }
+        return low;
+    }
+}
+```
+
+##  Kth Missing Positive Number 
 Leetcode Question [Link](https://leetcode.com/problems/kth-missing-positive-number/)
 ### 📄 File:
 ```java
@@ -160,14 +202,6 @@ class Solution {
         return k + left;
     }
 }
-
-```
-
-##  Kth Missing Positive Number 
-Leetcode Question [Link]()
-### 📄 File:
-```java
-
 ```
 
 ##  Aggressive Cows

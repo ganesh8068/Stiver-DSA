@@ -398,12 +398,24 @@ class Main {
 }
 ```
 
-## Longest subarray with given sum K(positives)
-
+## Maximum Difference Between Adjacent Elements in a Circular Array
+LeetCode Question [Link](https://leetcode.com/problems/maximum-difference-between-adjacent-elements-in-a-circular-array/?envType=daily-question&envId=2025-06-12)
 ### 📄 Code:
 
 ```java
+class Solution {
+    public int maxAdjacentDistance(int[] nums) {
+        int n = nums.length;
+        int sum = 0;
 
+        for (int i = 0; i < n; i++) {
+            int next = nums[(i + 1) % n];
+            int a = Math.abs(nums[i] - next);
+            sum = Math.max(a, sum);
+        }
+        return sum;
+    }
+}
 ```
 
 ## Longest subarray with sum K (Positives + Negatives)

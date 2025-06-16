@@ -269,20 +269,48 @@ Leetcode Question [Link]()
 Same as Previous Question: Split array
 ```
 
-
-##  Minimize Max Distance to Gas Station
-Leetcode Question [Link]()
-### 📄 File:
-```java
-
-```
-
-
 ##  Median of 2 sorted arrays
-Leetcode Question [Link]()
+Leetcode Question [Link](https://leetcode.com/problems/split-array-largest-sum/)
 ### 📄 File:
 ```java
+class Solution {
+    public int splitArray(int[] nums, int k) {
+        int n = nums.length;
+        int low = 0;
+        int high = n - 1;
+        for (int i = 0; i < n; i++) {
+            low = Math.max(nums[i], low);
+            high += nums[i];
+        }
 
+        int ans = 0;
+        while (low <= high) {
+            int mid = (low + high) / 2;
+            if (isFeasible(nums, mid, k)) {
+                ans = mid;
+                high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
+        }
+        return ans;
+    }
+
+    public static boolean isFeasible (int nums[], int mid, int k) {
+        int count = 1;
+        int currentSum = 0;
+        for (int i = 0; i < nums.length; i++) {
+            currentSum += nums[i];
+            if (currentSum > mid) {
+                count++;
+                currentSum = nums[i];
+
+                if (count > k) return false;
+            }
+        }
+        return true;
+    }
+}
 ```
 
 

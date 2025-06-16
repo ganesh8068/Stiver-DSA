@@ -270,7 +270,7 @@ Same as Previous Question: Split array
 ```
 
 ##  Median of 2 sorted arrays
-Leetcode Question [Link](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+Leetcode Question [Link](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)
 ### 📄 File:
 ```java
 class Solution {
@@ -314,18 +314,3 @@ class Solution {
 ```
 
 
-##  Kth element of 2 sorted arrays
-Leetcode Question [Link]()
-### 📄 File:
-```java
-
-```
-
-
-
-##  
-Leetcode Question [Link]()
-### 📄 File:
-```java
-
-```

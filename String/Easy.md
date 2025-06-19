@@ -39,11 +39,25 @@ class Solution {
 ```
 
 
-##  
-Leetcode Question [Link]()
+##  check if the sentence is pangram
+Leetcode Question [Link](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)
 ### 📄 File:
 ```java
-
+class Solution {
+    public boolean checkIfPangram(String sentence) {
+        int n = sentence.length();
+        int arr [] = new int[26];
+        for (int i = 0; i < n; i++) {
+            char ch = sentence.charAt(i);
+            int index = ch - 'a';
+            arr[index]++;
+        }
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == 0) return false;
+        }
+        return true;
+    }
+}
 ```
 
 

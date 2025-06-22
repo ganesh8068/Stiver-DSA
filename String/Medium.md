@@ -114,6 +114,40 @@ class Solution {
 
 
 
+##  Palindromic substrings
+Leetcode Question [Link](https://leetcode.com/problems/palindromic-substrings/)
+### 📄 File:
+```java
+class Solution {
+    public int countSubstrings(String s) {
+        int ans = 0;
+
+        for (int i = 0; i < s.length(); i++) {
+            ans += check(s, i, i);
+            ans += check(s, i, i + 1);
+        }
+        return ans;
+    }
+
+    public static int check (String s, int left, int right) {
+        int count = 0;
+        while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
+            left--;
+            right++;
+            count++;
+        }
+        return count;
+    }
+}
+```
+
+##  
+Leetcode Question [Link]()
+### 📄 File:
+```java
+
+```
+
 ##  
 Leetcode Question [Link]()
 ### 📄 File:

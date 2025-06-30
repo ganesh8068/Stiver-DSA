@@ -127,3 +127,56 @@ public class Main {
 }
 
 ```
+
+
+##  Delete Node in a Linked List
+LeetCode Question [Link](https://leetcode.com/problems/delete-node-in-a-linked-list/submissions/1680775514/)
+### 📄 File:
+```java
+class Solution {
+    public void deleteNode(ListNode node) {
+        node.val = node.next.val;
+        node.next = node.next.next;
+    }
+}
+```
+
+
+##  Middle of the Linked List
+LeetCode Question [Link](https://leetcode.com/problems/middle-of-the-linked-list/description/)
+### 📄 File:
+```java
+class Solution {
+    public ListNode middleNode(ListNode head) {
+        ListNode slow = head;
+        ListNode fast = head;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow;
+    }
+}
+```
+
+##  Middle of the Linked List
+LeetCode Question [Link]()
+### 📄 File:
+```java
+
+```
+
+##  Middle of the Linked List
+LeetCode Question [Link]()
+### 📄 File:
+```java
+
+```
+
+
+##  Middle of the Linked List
+LeetCode Question [Link]()
+### 📄 File:
+```java
+
+```

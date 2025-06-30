@@ -159,24 +159,37 @@ class Solution {
 }
 ```
 
-##  Middle of the Linked List
+##  Reverse LinkList
+LeetCode Question [Link](https://leetcode.com/problems/reverse-linked-list/)
+### 📄 File:
+```java
+class Solution {
+    public ListNode reverseList(ListNode head) {
+    ListNode prev = null;
+    ListNode curr = head;
+    while(curr != null){
+        ListNode temp = curr.next;    
+        curr.next = prev;
+        prev = curr;
+        curr = temp;
+    }
+    return prev;
+    }
+}
+```
+
+##  
 LeetCode Question [Link]()
 ### 📄 File:
 ```java
 
 ```
 
-##  Middle of the Linked List
+
+##  
 LeetCode Question [Link]()
 ### 📄 File:
 ```java
 
 ```
 
-
-##  Middle of the Linked List
-LeetCode Question [Link]()
-### 📄 File:
-```java
-
-```

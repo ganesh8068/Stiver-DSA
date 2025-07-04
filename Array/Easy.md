@@ -325,22 +325,21 @@ class TUF {
 ### 📄 Code:
 
 ```java
-class Main {
-    public static void main(String args[]) {
-        int arr[] = {1, 2, 3, 5, 6};
-        int xorArr = 0, xorFull = 0;
-        int n = arr.length;
+class Solution {
+    public int missingNumber(int[] nums) {
+        int n = nums.length;
+        int xorArr = 0;
+        int xorFull = 0;
 
         for (int i = 0; i < n; i++) {
-            xorArr ^= arr[i];
+            xorArr ^= nums[i];
         }
 
-        for (int i = 1; i <= n - 1; i++) {
+        for (int i = 0; i <= n; i++) {
             xorFull ^= i;
-        }
+        } 
 
-        int missing = xorArr ^ xorFull;
-        System.out.println("Missing number is: " + missing);
+        return xorArr ^ xorFull;
     }
 }
 ```

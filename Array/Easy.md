@@ -417,10 +417,3 @@ class Solution {
 }
 ```
 
-## Longest subarray with sum K (Positives + Negatives)
-
-### 📄 Code:
-
-```java
-
-```

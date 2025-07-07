@@ -39,7 +39,7 @@ class MinStack {
 
 
 ##  
-LeetCode Question [Link]()
+LeetCode Question [Link](https://leetcode.com/problems/min-stack/)
 ### 📄 File:
 ```java
 

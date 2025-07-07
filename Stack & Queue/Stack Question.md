@@ -3,7 +3,8 @@
 ---
 
 ##  Min Stack
-Leetcode Question [Link] (https://leetcode.com/problems/min-stack/)
+Leetcode Question [link] (https://leetcode.com/problems/min-stack/)
+
 ### 📄 File:
 ```java
 class MinStack {

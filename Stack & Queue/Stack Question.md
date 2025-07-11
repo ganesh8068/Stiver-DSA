@@ -149,10 +149,44 @@ class Solution {
 ```
 
 
-##  
-LeetCode Question [Link]()
+##  Aestroid Collisions
+LeetCode Question [Link](https://leetcode.com/problems/asteroid-collision/description/)
 ### 📄 File:
 ```java
+class Solution {
+    public int[] asteroidCollision(int[] asteroids) {
+        int n = asteroids.length;
+        Stack<Integer> st = new Stack<>();
+
+        for (int i = 0; i < n; i++) {
+            int current = asteroids[i];
+            boolean alive = true;
+
+            while (!st.isEmpty() && current < 0 && st.peek() > 0) {
+                if (st.peek() < -current) {
+                    st.pop();
+                } else if (st.peek() == -current) {
+                    st.pop();  
+                    alive = false;
+                    break;
+                } else {
+                    alive = false;
+                    break;
+                }
+            }
+
+            if (alive) {
+                st.push(current);
+            }
+        }
+
+        int[] result = new int[st.size()];
+        for (int i = st.size() - 1; i >= 0; i--) {
+            result[i] = st.pop();
+        }
+        return result;
+    }
+}
 
 ```
 

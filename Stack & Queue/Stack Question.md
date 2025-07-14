@@ -191,11 +191,34 @@ class Solution {
 ```
 
 
-##  
-LeetCode Question [Link]()
+##  Remove-K-Digits
+LeetCode Question [Link](https://leetcode.com/problems/remove-k-digits/description/)
 ### 📄 File:
 ```java
+class Solution {
+    public String removeKdigits(String num, int k) {
+        if(k >= num.length()) return "0";
 
+        char arr[] = num.toCharArray();
+        int i = 0;
+        for(char c : arr){
+            while(k > 0 && i > 0 && arr[i-1] > c){
+                i--;
+                k--;
+            }
+            arr[i++] = c;
+        }
+        int l = i - k;
+        int j = 0;
+        while(j < l && arr[j] == '0'){
+            j++;
+        }
+
+        if(j == l) return "0";
+
+        return new String(arr, j, l - j);
+    }
+}
 ```
 
 ##  

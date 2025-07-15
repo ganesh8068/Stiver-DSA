@@ -258,6 +258,14 @@ class Solution {
 ```
 
 
+##  LRU Cache
+LeetCode Question [Link](https://leetcode.com/problems/lru-cache/description/)
+### 📄 File:
+```java
+
+```
+
+
 ##  
 LeetCode Question [Link]()
 ### 📄 File:

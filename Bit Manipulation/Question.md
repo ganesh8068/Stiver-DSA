@@ -41,10 +41,3 @@ class Solution {
 }
 ```
 
-
-##  
-LeetCode Question [Link]()
-### 📄 File:
-```java
-
-```

@@ -63,7 +63,7 @@ class Solution {
 }
 ```
 
-##  Power n
+##  Power (x, n)
 LeetCode Question [Link](https://leetcode.com/problems/powx-n/)
 ### 📄 File:
 ```java
@@ -101,5 +101,4 @@ class Solution {
         }
     }
 }
-
 ```

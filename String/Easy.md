@@ -181,11 +181,21 @@ class Solution {
 ```
 
 
-##  
-Leetcode Question [Link]()
+##  Length of Last Word
+Leetcode Question [Link](https://leetcode.com/problems/length-of-last-word/description)
 ### 📄 File:
 ```java
+class Solution {
+    public int lengthOfLastWord(String s) {
+        int ans = 0;
 
+        for(int i = s.length() - 1; i >= 0; i--){
+            if(s.charAt(i) == ' ' && ans > 0) break;
+            else if(s.charAt(i) != ' ') ans++;
+        }
+        return ans;
+    }
+}
 ```
 
 

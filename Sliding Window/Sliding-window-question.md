@@ -2,16 +2,152 @@
 
 ---
 
-## 
+## Count Number of Nice Subarrays
+
+LeetCode Question [Link](https://leetcode.com/problems/count-number-of-nice-subarrays/description/)
+
+### 📄 Code:
+
+```java
+class Solution {
+    public int numberOfSubarrays(int[] nums, int k) {
+        int n = nums.length;
+        int[] cnt = new int[n + 1];
+        cnt[0] = 1;
+        int ans = 0, t = 0;
+        for (int i = 0; i < n; i++) {
+            t += nums[i] & 1;
+            if (t - k >= 0) {
+                ans += cnt[t - k];
+            }
+            cnt[t]++;
+        }
+        return ans;
+    }
+}
+```
+
+## longest repeating character replacement
+
+LeetCode Question [Link](https://leetcode.com/problems/longest-repeating-character-replacement/)
+
+### 📄 Code:
+
+```java
+class Solution {
+    public int characterReplacement(String s, int k) {
+        HashMap<Character, Integer> freqs = new HashMap<>();
+        int res = 0, i = 0, maxFreq = 0;
+
+        for (int j = 0; j < s.length(); j++) {
+            char c = s.charAt(j);
+            freqs.put(c, freqs.getOrDefault(c, 0) + 1);
+            maxFreq = Math.max(maxFreq, freqs.get(c));
+
+            while ((j - i + 1) - maxFreq > k) {
+                char left = s.charAt(i);
+                freqs.put(left, freqs.get(left) - 1);
+                i++;
+            }
+
+            res = Math.max(res, j - i + 1);
+        }
+
+        return res;
+    }
+}
+```
+
+## Longest Substring Without Repeating Characters
+
+LeetCode Question [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+
+### 📄 Code:
+
+```java
+class Solution {
+      public int lengthOfLongestSubstring(String s) {
+      Map<Character, Integer> map = new HashMap<>();
+        int j = 0, maxLen = 0;
+
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (map.containsKey(c)) {
+                j = Math.max(j, map.get(c) + 1);
+            }
+            map.put(c, i);
+            maxLen = Math.max(maxLen, i - j + 1);
+        }
+
+        return maxLen;
+    }
+}
+```
+
+```java
+class Solution {
+    public int lengthOfLongestSubstring(String s) {
+        int left = 0, right = 0, ans = 0;
+        HashSet<Character> set = new HashSet<>();
+        while (right < s.length()) {
+            char c = s.charAt(right);
+            while (set.contains(c)) {
+                set.remove(s.charAt(left));
+                left++;
+            }
+            set.add(c);
+            ans = Math.max(ans, right-left + 1);
+            right++;
+        }
+        return ans;
+    }
+}
+```
+
+##
+
 LeetCode Question [Link]()
+
 ### 📄 Code:
 
 ```java
 
 ```
 
-## 
+##
+
 LeetCode Question [Link]()
+
+### 📄 Code:
+
+```java
+
+```
+
+##
+
+LeetCode Question [Link]()
+
+### 📄 Code:
+
+```java
+
+```
+
+##
+
+LeetCode Question [Link]()
+
+### 📄 Code:
+
+```java
+
+```
+
+##
+
+LeetCode Question [Link]()
+
 ### 📄 Code:
 
 ```java

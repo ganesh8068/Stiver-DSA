@@ -166,13 +166,40 @@ class BrowserHistory {
 
 ```
 
-##
+## Maximum Points You Can Obtain from Cards
 
-LeetCode Question [Link]()
+LeetCode Question [Link](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description/)
 
 ### 📄 Code:
 
 ```java
+class Solution {
+    public int maxScore(int[] cardPoints, int k) {
+        
+        int n = cardPoints.length;
+        int sum = 0;
+        int maxSum = 0;
+
+        for(int i=0;i<k;i++)
+        {
+            sum += cardPoints[i];
+        }
+
+        maxSum = Math.max(sum,maxSum);
+
+        int j = 1;
+        for(int i = k-1; i >= 0 ; i--)
+        {
+            sum -= cardPoints[i];
+            sum += cardPoints[(n - j++)];
+
+            maxSum = Math.max(sum , maxSum);
+        }
+
+        return maxSum;
+    }
+}
+
 
 ```
 

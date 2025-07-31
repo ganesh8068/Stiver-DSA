@@ -104,13 +104,29 @@ class Solution {
 }
 ```
 
-##
+## binary subarrays with sum
 
-LeetCode Question [Link]()
+LeetCode Question [Link](https://leetcode.com/problems/binary-subarrays-with-sum/)
 
 ### 📄 Code:
 
 ```java
+class Solution {
+    public int numSubarraysWithSum(int[] nums, int goal) {
+        return countAtMost(nums, goal) - countAtMost(nums, goal - 1);
+    }
+    private int countAtMost(int[] nums, int goal) {
+        int count = 0, sum = 0, start = 0;
+        for (int end = 0; end < nums.length; end++) {
+            sum += nums[end];
+            while (sum > goal && start <= end) {
+                sum -= nums[start++];
+            }
+            count += end - start + 1;
+        }
+        return count;
+    }
+}
 
 ```
 

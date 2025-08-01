@@ -22,11 +22,18 @@ class Solution {
 }
 ```
 
-##  
-Leetcode Question [Link]()
+##  Maximum Depth of Binary Tree
+Leetcode Question [Link](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 ### 📄 File:
 ```java
-
+class Solution {
+    public int maxDepth(TreeNode root) {
+        if (root == null) return 0;
+        int lh = maxDepth(root.left);
+        int lr = maxDepth(root.right);
+        return 1 + Math.max(lh, lr);
+    }
+}
 ```
 
 ##  

@@ -27,7 +27,7 @@ Leetcode Question [Link](https://leetcode.com/problems/maximum-depth-of-binary-t
 ### 📄 File:
 ```java
 class Solution {
-    public int maxDepth(TreeNode root) {
+    public int maxDepth(TreeNode root) { 
         if (root == null) return 0;
         int lh = maxDepth(root.left);
         int lr = maxDepth(root.right);
@@ -59,18 +59,49 @@ class Solution {
 }
 ```
 
-##  
-Leetcode Question [Link]()
+##  Diameter of Binary Tree
+Leetcode Question [Link](https://leetcode.com/problems/diameter-of-binary-tree/description/)
 ### 📄 File:
 ```java
+class Solution {
+    public int diameterOfBinaryTree(TreeNode root) {
+        int diameter[] = new int[1];
+        height (root, diameter);
+        return diameter[0];
+    }
 
+    int height(TreeNode root, int diameter[]) {
+        if (root == null) return 0;
+        int lh = height(root.left, diameter);
+        int rh = height(root.right, diameter);
+        diameter[0] = Math.max(diameter[0], lh +  rh);
+        return 1 + Math.max(lh, rh);
+    }
+}
 ```
 
-##  
-Leetcode Question [Link]()
+##  Binary Tree Maximum Path Sum
+Leetcode Question [Link](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 ### 📄 File:
 ```java
+class Solution {
+    public int maxPathSum(TreeNode root) {
+        int[] res = { root.val };
+        dfs(root, res);
+        return res[0];
+    }
 
+    private int dfs(TreeNode node, int[] res) {
+        if (node == null) return 0;
+
+        int left = Math.max(0, dfs(node.left, res));
+        int right = Math.max(0, dfs(node.right, res));
+
+        res[0] = Math.max(res[0], left + right + node.val);
+
+        return Math.max(left, right) + node.val;
+    }    
+}
 ```
 
 ##  

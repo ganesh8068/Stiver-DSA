@@ -104,11 +104,16 @@ class Solution {
 }
 ```
 
-##  
-Leetcode Question [Link]()
+##  Same Tree
+Leetcode Question [Link](https://leetcode.com/problems/same-tree/description/)
 ### 📄 File:
 ```java
-
+class Solution {
+    public boolean isSameTree(TreeNode p, TreeNode q) {
+        if (p == null || q == null) return (p==q);
+        return (p.val == q.val) && isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
+    }
+}
 ```
 
 ##  

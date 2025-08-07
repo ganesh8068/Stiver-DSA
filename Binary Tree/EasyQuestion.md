@@ -93,12 +93,9 @@ class Solution {
 
     private int dfs(TreeNode node, int[] res) {
         if (node == null) return 0;
-
         int left = Math.max(0, dfs(node.left, res));
         int right = Math.max(0, dfs(node.right, res));
-
         res[0] = Math.max(res[0], left + right + node.val);
-
         return Math.max(left, right) + node.val;
     }    
 }
@@ -114,6 +111,30 @@ class Solution {
         return (p.val == q.val) && isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
     }
 }
+```
+
+##  Symmetric Tree 
+Leetcode Question [Link](https://leetcode.com/problems/symmetric-tree/description/)
+### 📄 File:
+```java
+class Solution {
+    public boolean isSymmetric(TreeNode root) {
+        return root == null || isSymmetricHelp(root.left, root.right);
+    }
+
+    boolean isSymmetricHelp(TreeNode left, TreeNode right) {
+        if (left == null || right == null) return left == right;
+        if (left.val != right.val) return false;
+        return isSymmetricHelp(left.left, right.right) && isSymmetricHelp(left.right, right.left);
+    }
+}
+```
+
+##  
+Leetcode Question [Link]()
+### 📄 File:
+```java
+
 ```
 
 ##  

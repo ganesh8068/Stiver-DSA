@@ -101,11 +101,24 @@ class Solution {
 
 ```
 
-##  
-Leetcode Question [Link]()
+##  Right View
+Leetcode Question [Link](https://leetcode.com/problems/binary-tree-right-side-view/description/)
 ### 📄 File:
 ```java
+class Solution {
+    public List<Integer> rightSideView(TreeNode root) {
+        List <Integer> res = new ArrayList<>();
+        rView(root, 0, res);
+        return res;
+    }
 
+    void rView(TreeNode root, int level, List <Integer> res) {
+        if (root == null) return;
+        if (level == res.size()) res.add(root.val);
+        rView(root.right, level + 1, res);
+        rView(root.left, level + 1, res);
+    }
+}
 ```
 
 ##  

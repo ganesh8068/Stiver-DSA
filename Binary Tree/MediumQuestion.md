@@ -1,10 +1,13 @@
 # Java Programs: Binary Tree Medium Question
+
 ---
 
+## Binary Tree Level Order Traversal
 
-##  Binary Tree Level Order Traversal
 Leetcode Question [Link](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+
 ### 📄 File:
+
 ```java
 class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
@@ -24,8 +27,11 @@ class Solution {
 ```
 
 ## Binary Tree Zigzag Level Order Traversal
+
 Leetcode Question [Link](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)
+
 ### 📄 File:
+
 ```java
 class Solution {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
@@ -47,9 +53,12 @@ class Solution {
 }
 ```
 
-##  Top view of Binary Tree
+## Top view of Binary Tree
+
 Leetcode Question [Link]()
+
 ### 📄 File:
+
 ```java
 import java.util.*;
 
@@ -58,9 +67,9 @@ class Solution {
         ArrayList<Integer> ans = new ArrayList<>();
         if (root == null) return ans;
 
-        Map<Integer, Integer> map = new TreeMap<>(); 
+        Map<Integer, Integer> map = new TreeMap<>();
         Queue<Pair> q = new LinkedList<>();
-        q.add(new Pair(root, 0)); 
+        q.add(new Pair(root, 0));
 
         while (!q.isEmpty()) {
             Pair it = q.poll();
@@ -101,9 +110,12 @@ class Solution {
 
 ```
 
-##  Right View
+## Right View
+
 Leetcode Question [Link](https://leetcode.com/problems/binary-tree-right-side-view/description/)
+
 ### 📄 File:
+
 ```java
 class Solution {
     public List<Integer> rightSideView(TreeNode root) {
@@ -121,54 +133,100 @@ class Solution {
 }
 ```
 
-##  
-Leetcode Question [Link]()
+## Lowest Common Ancestor of a Binary Tree
+
+Leetcode Question [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)
+
 ### 📄 File:
+
+```java
+class Solution {
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        if (root == null || p == root || q == root) return root;
+        TreeNode left = lowestCommonAncestor(root.left, p, q);
+        TreeNode right = lowestCommonAncestor(root.right, p, q);
+
+        if (left == null) return right;
+        else if (right == null) return left;
+        else return root;
+    }
+}
+```
+
+## Maximum Width of Binary Tree
+
+Leetcode Question [Link](https://leetcode.com/problems/maximum-width-of-binary-tree/description/)
+
+### 📄 File:
+
+```java
+class Solution {
+    int maxWidth = 0;
+    public int widthOfBinaryTree(TreeNode root) {
+        List <Integer> res = new ArrayList<>();
+        dfs (root, 0, 1, res);
+        return maxWidth;
+    }
+
+    private void dfs (TreeNode root, int level, int index, List <Integer> res) {
+        if (root == null) return;
+        if (level == res.size()) res.add(index);
+
+        int width = index - res.get(level) + 1;
+        maxWidth = Math.max(maxWidth, width);
+
+        dfs(root.left, level + 1, 2 * index, res);
+        dfs(root.right, level + 1, 2 * index + 1, res);
+    }
+}
+```
+
+##
+
+Leetcode Question [Link]()
+
+### 📄 File:
+
 ```java
 
 ```
 
-##  
+##
+
 Leetcode Question [Link]()
+
 ### 📄 File:
+
 ```java
 
 ```
 
-##  
+##
+
 Leetcode Question [Link]()
+
 ### 📄 File:
+
 ```java
 
 ```
 
-##  
+##
+
 Leetcode Question [Link]()
+
 ### 📄 File:
+
 ```java
 
 ```
 
-##  
+##
+
 Leetcode Question [Link]()
+
 ### 📄 File:
+
 ```java
 
 ```
-
-##  
-Leetcode Question [Link]()
-### 📄 File:
-```java
-
-```
-
-##  
-Leetcode Question [Link]()
-### 📄 File:
-```java
-
-```
-
-
-

@@ -1,16 +1,19 @@
 # Java Programs: Binary Tree Easy Question
+
 ---
 
+## Binary Tree Preorder Traversal
 
-##  Binary Tree Preorder Traversal
 Leetcode Question [Link]()
+
 ### 📄 File:
+
 ```java
 class Solution {
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
         preorder(root, res);
-        return res;        
+        return res;
     }
 
     private void preorder(TreeNode node, List<Integer> res) {
@@ -18,16 +21,19 @@ class Solution {
         res.add(node.val);
         preorder(node.left, res);
         preorder(node.right, res);
-    }    
+    }
 }
 ```
 
-##  Maximum Depth of Binary Tree
+## Maximum Depth of Binary Tree
+
 Leetcode Question [Link](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+
 ### 📄 File:
+
 ```java
 class Solution {
-    public int maxDepth(TreeNode root) { 
+    public int maxDepth(TreeNode root) {
         if (root == null) return 0;
         int lh = maxDepth(root.left);
         int lr = maxDepth(root.right);
@@ -36,9 +42,12 @@ class Solution {
 }
 ```
 
-##  Balanced Binary Tree
+## Balanced Binary Tree
+
 Leetcode Question [Link](https://leetcode.com/problems/balanced-binary-tree/)
+
 ### 📄 File:
+
 ```java
 class Solution {
     public boolean isBalanced(TreeNode root) {
@@ -59,9 +68,12 @@ class Solution {
 }
 ```
 
-##  Diameter of Binary Tree
+## Diameter of Binary Tree
+
 Leetcode Question [Link](https://leetcode.com/problems/diameter-of-binary-tree/description/)
+
 ### 📄 File:
+
 ```java
 class Solution {
     public int diameterOfBinaryTree(TreeNode root) {
@@ -80,9 +92,12 @@ class Solution {
 }
 ```
 
-##  Binary Tree Maximum Path Sum
+## Binary Tree Maximum Path Sum
+
 Leetcode Question [Link](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+
 ### 📄 File:
+
 ```java
 class Solution {
     public int maxPathSum(TreeNode root) {
@@ -97,25 +112,33 @@ class Solution {
         int right = Math.max(0, dfs(node.right, res));
         res[0] = Math.max(res[0], left + right + node.val);
         return Math.max(left, right) + node.val;
-    }    
-}
-```
-
-##  Same Tree
-Leetcode Question [Link](https://leetcode.com/problems/same-tree/description/)
-### 📄 File:
-```java
-class Solution {
-    public boolean isSameTree(TreeNode p, TreeNode q) {
-        if (p == null || q == null) return (p==q);
-        return (p.val == q.val) && isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
     }
 }
 ```
 
-##  Symmetric Tree 
-Leetcode Question [Link](https://leetcode.com/problems/symmetric-tree/description/)
+## Same Tree
+
+Leetcode Question [Link](https://leetcode.com/problems/same-tree/description/)
+
 ### 📄 File:
+
+```java
+class Solution {
+    public boolean isSameTree(TreeNode p, TreeNode q) {
+        if (p == null || q == null) return (p==q);
+        return (p.val == q.val) &&
+        isSameTree(p.left, q.left) &&
+        isSameTree(p.right, q.right);
+    }
+}
+```
+
+## Symmetric Tree
+
+Leetcode Question [Link](https://leetcode.com/problems/symmetric-tree/description/)
+
+### 📄 File:
+
 ```java
 class Solution {
     public boolean isSymmetric(TreeNode root) {
@@ -125,14 +148,18 @@ class Solution {
     boolean isSymmetricHelp(TreeNode left, TreeNode right) {
         if (left == null || right == null) return left == right;
         if (left.val != right.val) return false;
-        return isSymmetricHelp(left.left, right.right) && isSymmetricHelp(left.right, right.left);
+        return isSymmetricHelp(left.left, right.right) &&
+               isSymmetricHelp(left.right, right.left);
     }
 }
 ```
 
-##  Count Total Tree Nodes
+## Count Total Tree Nodes
+
 Leetcode Question [Link](https://leetcode.com/problems/count-complete-tree-nodes/description/)
+
 ### 📄 File:
+
 ```java
 class Solution {
     public int countNodes(TreeNode root) {
@@ -150,9 +177,12 @@ class Solution {
 }
 ```
 
-##  Morris Traversal
+## Morris Traversal
+
 Leetcode Question [Link](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)
+
 ### 📄 File:
+
 ```java
 Using Inorder Traversal
 
@@ -186,10 +216,7 @@ class Solution {
             root = root.right;
         }
 
-        return res;        
+        return res;
     }
 }
 ```
-
-
-

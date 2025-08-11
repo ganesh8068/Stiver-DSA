@@ -181,52 +181,42 @@ class Solution {
 }
 ```
 
-##
+## Flatten a Binary Tree to Linked List
 
-Leetcode Question [Link]()
-
-### 📄 File:
-
-```java
-
-```
-
-##
-
-Leetcode Question [Link]()
+Leetcode Question [Link](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
 
 ### 📄 File:
 
 ```java
 
-```
+class Solution {
+    TreeNode head = null;
+    public void flatten(TreeNode root) {
+        if (root != null) revPreOrder(root);
+    }
+    private void revPreOrder(TreeNode node) {
+        if (node.right != null) revPreOrder(node.right);
+        if (node.left != null) revPreOrder(node.left);
+        node.left = null;
+        node.right = head;
+        head = node;
+    }
+}
 
-##
 
-Leetcode Question [Link]()
+class Solution {
+    TreeNode previous = null;
 
-### 📄 File:
+    public void flatten(TreeNode root) {
+        if (root == null) return;
 
-```java
+        flatten(root.right);
+        flatten(root.left);
 
-```
+        root.right = previous;
+        root.left = null;
 
-##
-
-Leetcode Question [Link]()
-
-### 📄 File:
-
-```java
-
-```
-
-##
-
-Leetcode Question [Link]()
-
-### 📄 File:
-
-```java
-
+        previous = root;
+    }
+}
 ```

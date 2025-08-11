@@ -150,25 +150,45 @@ class Solution {
 }
 ```
 
-##  
-Leetcode Question [Link]()
+##  Morris Traversal
+Leetcode Question [Link](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)
 ### 📄 File:
 ```java
+Using Inorder Traversal
 
-```
+class Solution {
+    public List<Integer> inorderTraversal(TreeNode root) {
+        List <Integer> res = new ArrayList<>();
+        inorder(root, res);
+        return res;
+    }
+    void inorder(TreeNode root, List <Integer> res) {
+        if (root == null) return;
+        inorder(root.left, res);
+        res.add(root.val);
+        inorder(root.right, res);
+    }
+}
 
-##  
-Leetcode Question [Link]()
-### 📄 File:
-```java
+class Solution {
+    public List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> res = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<>();
 
-```
+        while (root != null || !stack.isEmpty()) {
+            while (root != null) {
+                stack.push(root);
+                root = root.left;
+            }
 
-##  
-Leetcode Question [Link]()
-### 📄 File:
-```java
+            root = stack.pop();
+            res.add(root.val);
+            root = root.right;
+        }
 
+        return res;        
+    }
+}
 ```
 
 

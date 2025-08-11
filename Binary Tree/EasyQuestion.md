@@ -130,11 +130,24 @@ class Solution {
 }
 ```
 
-##  
-Leetcode Question [Link]()
+##  Count Total Tree Nodes
+Leetcode Question [Link](https://leetcode.com/problems/count-complete-tree-nodes/description/)
 ### 📄 File:
 ```java
+class Solution {
+    public int countNodes(TreeNode root) {
+        List <Integer> res = new ArrayList<>();
+        inorder(root, res);
+        return res.size();
+    }
 
+    void inorder (TreeNode root, List <Integer> res) {
+        if (root == null) return;
+        inorder(root.left, res);
+        res.add(root.val);
+        inorder(root.right, res);
+    }
+}
 ```
 
 ##  

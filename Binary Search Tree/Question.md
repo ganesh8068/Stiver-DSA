@@ -100,24 +100,51 @@ class Solution {
 }
 ```
 
-##
+## Kth Smallest Element in a BST
 
-Leetcode Question [Link]()
+Leetcode Question [Link](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
 
 ### 📄 File:
 
 ```java
+class Solution {
+    int count = 0, val = -1;
+    public void traverse(TreeNode root, int k) {
+        if (root == null) return;
+        traverse(root.left,k);
+        count++;
+        if (count == k) {
+            val = root.val;
+        }
+        traverse(root.right, k);
+    }
 
+    public int kthSmallest(TreeNode root, int k) {
+        traverse(root,k);
+        return val;
+    }
+}
 ```
 
-##
+## Valid BST
 
-Leetcode Question [Link]()
+Leetcode Question [Link](https://leetcode.com/problems/validate-binary-search-tree/)
 
 ### 📄 File:
 
 ```java
+class Solution {
+    public boolean isValidBST(TreeNode root) {
+        return validBST(root, Long.MIN_VALUE, Long.MAX_VALUE);
+    }
 
+    public boolean validBST(TreeNode root, long minVal, long maxVal) {
+        if (root == null) return true;
+        if (root.val >= maxVal || root.val <= minVal) return false;
+        return validBST(root.left, minVal, root.val) 
+            && validBST(root.right, root.val, maxVal);
+    }
+}
 ```
 
 ##

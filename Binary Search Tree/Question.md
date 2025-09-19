@@ -147,14 +147,22 @@ class Solution {
 }
 ```
 
-##
+## Lowest Common Ancestor of a Binary Search Tree
 
-Leetcode Question [Link]()
+Leetcode Question [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/)
 
 ### 📄 File:
 
 ```java
-
+class Solution {
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        if (root == null) return root;
+        int curr = root.val;
+        if (curr < p.val && curr < q.val) return lowestCommonAncestor(root.right, p, q);
+        if (curr > p.val && curr > q.val) return lowestCommonAncestor(root.left, p, q);
+        return root;
+    }
+}
 ```
 
 ##

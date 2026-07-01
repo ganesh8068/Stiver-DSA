@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/ganesh8068/Stiver-DSA/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/ganesh8068/Stiver-DSA/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2540-minimum-common-value](https://github.com/ganesh8068/Stiver-DSA/tree/master/2540-minimum-common-value) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/ganesh8068/Stiver-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/ganesh8068/Stiver-DSA/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/ganesh8068/Stiver-DSA/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/ganesh8068/Stiver-DSA/tree/master/3739-count-subarrays-with-majority-element-ii) |
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/ganesh8068/Stiver-DSA/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/ganesh8068/Stiver-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
 ## Binary Tree
 |  |
 | ------- |
@@ -57,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0035-search-insert-position](https://github.com/ganesh8068/Stiver-DSA/tree/master/0035-search-insert-position) |
 | [2540-minimum-common-value](https://github.com/ganesh8068/Stiver-DSA/tree/master/2540-minimum-common-value) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/ganesh8068/Stiver-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/ganesh8068/Stiver-DSA/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 ## String
 |  |
@@ -100,4 +103,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/ganesh8068/Stiver-DSA/tree/master/3739-count-subarrays-with-majority-element-ii) |
+## Union-Find
+|  |
+| ------- |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/ganesh8068/Stiver-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/ganesh8068/Stiver-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
+## Matrix
+|  |
+| ------- |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/ganesh8068/Stiver-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
 <!---LeetCode Topics End-->

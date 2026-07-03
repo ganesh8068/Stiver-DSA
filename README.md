@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ganesh8068/Stiver-DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/ganesh8068/Stiver-DSA/tree/master/0027-remove-element) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ganesh8068/Stiver-DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0283-move-zeroes](https://github.com/ganesh8068/Stiver-DSA/tree/master/0283-move-zeroes) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/ganesh8068/Stiver-DSA/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2540-minimum-common-value](https://github.com/ganesh8068/Stiver-DSA/tree/master/2540-minimum-common-value) |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ganesh8068/Stiver-DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/ganesh8068/Stiver-DSA/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 ## Trie
 |  |
@@ -115,4 +117,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/ganesh8068/Stiver-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
+## String Matching
+|  |
+| ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ganesh8068/Stiver-DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 <!---LeetCode Topics End-->

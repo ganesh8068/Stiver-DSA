@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/ganesh8068/Stiver-DSA/tree/master/0035-search-insert-position) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ganesh8068/Stiver-DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0169-majority-element](https://github.com/ganesh8068/Stiver-DSA/tree/master/0169-majority-element) |
+| [0239-sliding-window-maximum](https://github.com/ganesh8068/Stiver-DSA/tree/master/0239-sliding-window-maximum) |
 | [0283-move-zeroes](https://github.com/ganesh8068/Stiver-DSA/tree/master/0283-move-zeroes) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/ganesh8068/Stiver-DSA/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/ganesh8068/Stiver-DSA/tree/master/2149-rearrange-array-elements-by-sign) |
@@ -112,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/ganesh8068/Stiver-DSA/tree/master/0239-sliding-window-maximum) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/ganesh8068/Stiver-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
 ## Matrix
 |  |
@@ -121,4 +123,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ganesh8068/Stiver-DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/ganesh8068/Stiver-DSA/tree/master/0239-sliding-window-maximum) |
+## Sliding Window
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/ganesh8068/Stiver-DSA/tree/master/0239-sliding-window-maximum) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/ganesh8068/Stiver-DSA/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->

@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2540-minimum-common-value](https://github.com/ganesh8068/Stiver-DSA/tree/master/2540-minimum-common-value) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/ganesh8068/Stiver-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/ganesh8068/Stiver-DSA/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
+| [3620-network-recovery-pathways](https://github.com/ganesh8068/Stiver-DSA/tree/master/3620-network-recovery-pathways) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/ganesh8068/Stiver-DSA/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/ganesh8068/Stiver-DSA/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## Two Pointers
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/ganesh8068/Stiver-DSA/tree/master/0035-search-insert-position) |
 | [2540-minimum-common-value](https://github.com/ganesh8068/Stiver-DSA/tree/master/2540-minimum-common-value) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/ganesh8068/Stiver-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [3620-network-recovery-pathways](https://github.com/ganesh8068/Stiver-DSA/tree/master/3620-network-recovery-pathways) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/ganesh8068/Stiver-DSA/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 ## String
 |  |
@@ -90,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ganesh8068/Stiver-DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [3620-network-recovery-pathways](https://github.com/ganesh8068/Stiver-DSA/tree/master/3620-network-recovery-pathways) |
 ## Simulation
 |  |
 | ------- |
@@ -115,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/ganesh8068/Stiver-DSA/tree/master/0239-sliding-window-maximum) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/ganesh8068/Stiver-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [3620-network-recovery-pathways](https://github.com/ganesh8068/Stiver-DSA/tree/master/3620-network-recovery-pathways) |
 ## Matrix
 |  |
 | ------- |
@@ -135,4 +139,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/ganesh8068/Stiver-DSA/tree/master/0239-sliding-window-maximum) |
+## Graph Theory
+|  |
+| ------- |
+| [3620-network-recovery-pathways](https://github.com/ganesh8068/Stiver-DSA/tree/master/3620-network-recovery-pathways) |
+## Topological Sort
+|  |
+| ------- |
+| [3620-network-recovery-pathways](https://github.com/ganesh8068/Stiver-DSA/tree/master/3620-network-recovery-pathways) |
+## Shortest Path
+|  |
+| ------- |
+| [3620-network-recovery-pathways](https://github.com/ganesh8068/Stiver-DSA/tree/master/3620-network-recovery-pathways) |
 <!---LeetCode Topics End-->

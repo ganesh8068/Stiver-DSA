@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/ganesh8068/Stiver-DSA/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+| [0222-count-complete-tree-nodes](https://github.com/ganesh8068/Stiver-DSA/tree/master/0222-count-complete-tree-nodes) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -59,10 +60,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/ganesh8068/Stiver-DSA/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+| [0222-count-complete-tree-nodes](https://github.com/ganesh8068/Stiver-DSA/tree/master/0222-count-complete-tree-nodes) |
 ## Binary Search
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/ganesh8068/Stiver-DSA/tree/master/0035-search-insert-position) |
+| [0222-count-complete-tree-nodes](https://github.com/ganesh8068/Stiver-DSA/tree/master/0222-count-complete-tree-nodes) |
 | [2540-minimum-common-value](https://github.com/ganesh8068/Stiver-DSA/tree/master/2540-minimum-common-value) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/ganesh8068/Stiver-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3620-network-recovery-pathways](https://github.com/ganesh8068/Stiver-DSA/tree/master/3620-network-recovery-pathways) |
@@ -156,4 +159,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3620-network-recovery-pathways](https://github.com/ganesh8068/Stiver-DSA/tree/master/3620-network-recovery-pathways) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0222-count-complete-tree-nodes](https://github.com/ganesh8068/Stiver-DSA/tree/master/0222-count-complete-tree-nodes) |
 <!---LeetCode Topics End-->

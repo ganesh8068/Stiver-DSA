@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/ganesh8068/Stiver-DSA/tree/master/0169-majority-element) |
 | [0239-sliding-window-maximum](https://github.com/ganesh8068/Stiver-DSA/tree/master/0239-sliding-window-maximum) |
 | [0283-move-zeroes](https://github.com/ganesh8068/Stiver-DSA/tree/master/0283-move-zeroes) |
+| [1288-remove-covered-intervals](https://github.com/ganesh8068/Stiver-DSA/tree/master/1288-remove-covered-intervals) |
 | [1301-number-of-paths-with-max-score](https://github.com/ganesh8068/Stiver-DSA/tree/master/1301-number-of-paths-with-max-score) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/ganesh8068/Stiver-DSA/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/ganesh8068/Stiver-DSA/tree/master/2149-rearrange-array-elements-by-sign) |
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/ganesh8068/Stiver-DSA/tree/master/0169-majority-element) |
+| [1288-remove-covered-intervals](https://github.com/ganesh8068/Stiver-DSA/tree/master/1288-remove-covered-intervals) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/ganesh8068/Stiver-DSA/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 ## Counting
 |  |

@@ -15,17 +15,18 @@
  */
 class Solution {
     public int countNodes(TreeNode root) {
+
     //     List <Integer> res = new ArrayList<>();
     //     inorder(root, res);
     //     return res.size();
-    // }
+    if (root == null) return 0;
+    return 1 + countNodes(root.left) + countNodes(root.right);
+    }
     // void inorder(TreeNode root, List<Integer> res) {
     //     if (root == null) return;
     //     inorder(root.left, res);
     //     res.add(root.val);
     //     inorder(root.right, res);
     // }
-    if (root == null) return 0;
-    return 1 + countNodes(root.left) + countNodes(root.right);
-    }
+    
 }

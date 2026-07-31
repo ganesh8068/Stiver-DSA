@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ganesh8068/Stiver-DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/ganesh8068/Stiver-DSA/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/ganesh8068/Stiver-DSA/tree/master/0035-search-insert-position) |
+| [0053-maximum-subarray](https://github.com/ganesh8068/Stiver-DSA/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ganesh8068/Stiver-DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0169-majority-element](https://github.com/ganesh8068/Stiver-DSA/tree/master/0169-majority-element) |
 | [0239-sliding-window-maximum](https://github.com/ganesh8068/Stiver-DSA/tree/master/0239-sliding-window-maximum) |
@@ -103,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/ganesh8068/Stiver-DSA/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/ganesh8068/Stiver-DSA/tree/master/0169-majority-element) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/ganesh8068/Stiver-DSA/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## Sorting
@@ -127,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/ganesh8068/Stiver-DSA/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ganesh8068/Stiver-DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [1301-number-of-paths-with-max-score](https://github.com/ganesh8068/Stiver-DSA/tree/master/1301-number-of-paths-with-max-score) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/ganesh8068/Stiver-DSA/tree/master/3534-path-existence-queries-in-a-graph-ii) |

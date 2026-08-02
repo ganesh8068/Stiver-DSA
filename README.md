@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/ganesh8068/Stiver-DSA/tree/master/0169-majority-element) |
 | [0239-sliding-window-maximum](https://github.com/ganesh8068/Stiver-DSA/tree/master/0239-sliding-window-maximum) |
 | [0283-move-zeroes](https://github.com/ganesh8068/Stiver-DSA/tree/master/0283-move-zeroes) |
+| [0486-predict-the-winner](https://github.com/ganesh8068/Stiver-DSA/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/ganesh8068/Stiver-DSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [0877-stone-game](https://github.com/ganesh8068/Stiver-DSA/tree/master/0877-stone-game) |
 | [1288-remove-covered-intervals](https://github.com/ganesh8068/Stiver-DSA/tree/master/1288-remove-covered-intervals) |
@@ -132,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0053-maximum-subarray](https://github.com/ganesh8068/Stiver-DSA/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ganesh8068/Stiver-DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0486-predict-the-winner](https://github.com/ganesh8068/Stiver-DSA/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/ganesh8068/Stiver-DSA/tree/master/0877-stone-game) |
 | [1301-number-of-paths-with-max-score](https://github.com/ganesh8068/Stiver-DSA/tree/master/1301-number-of-paths-with-max-score) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/ganesh8068/Stiver-DSA/tree/master/3534-path-existence-queries-in-a-graph-ii) |
@@ -210,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0486-predict-the-winner](https://github.com/ganesh8068/Stiver-DSA/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/ganesh8068/Stiver-DSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [0877-stone-game](https://github.com/ganesh8068/Stiver-DSA/tree/master/0877-stone-game) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/ganesh8068/Stiver-DSA/tree/master/3514-number-of-unique-xor-triplets-ii) |
@@ -247,5 +250,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Game Theory
 |  |
 | ------- |
+| [0486-predict-the-winner](https://github.com/ganesh8068/Stiver-DSA/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/ganesh8068/Stiver-DSA/tree/master/0877-stone-game) |
+## Recursion
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/ganesh8068/Stiver-DSA/tree/master/0486-predict-the-winner) |
 <!---LeetCode Topics End-->

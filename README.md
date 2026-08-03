@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1288-remove-covered-intervals](https://github.com/ganesh8068/Stiver-DSA/tree/master/1288-remove-covered-intervals) |
 | [1301-number-of-paths-with-max-score](https://github.com/ganesh8068/Stiver-DSA/tree/master/1301-number-of-paths-with-max-score) |
 | [1331-rank-transform-of-an-array](https://github.com/ganesh8068/Stiver-DSA/tree/master/1331-rank-transform-of-an-array) |
+| [1406-stone-game-iii](https://github.com/ganesh8068/Stiver-DSA/tree/master/1406-stone-game-iii) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/ganesh8068/Stiver-DSA/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/ganesh8068/Stiver-DSA/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2540-minimum-common-value](https://github.com/ganesh8068/Stiver-DSA/tree/master/2540-minimum-common-value) |
@@ -138,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0486-predict-the-winner](https://github.com/ganesh8068/Stiver-DSA/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/ganesh8068/Stiver-DSA/tree/master/0877-stone-game) |
 | [1301-number-of-paths-with-max-score](https://github.com/ganesh8068/Stiver-DSA/tree/master/1301-number-of-paths-with-max-score) |
+| [1406-stone-game-iii](https://github.com/ganesh8068/Stiver-DSA/tree/master/1406-stone-game-iii) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/ganesh8068/Stiver-DSA/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3620-network-recovery-pathways](https://github.com/ganesh8068/Stiver-DSA/tree/master/3620-network-recovery-pathways) |
 ## Simulation
@@ -217,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0486-predict-the-winner](https://github.com/ganesh8068/Stiver-DSA/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/ganesh8068/Stiver-DSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [0877-stone-game](https://github.com/ganesh8068/Stiver-DSA/tree/master/0877-stone-game) |
+| [1406-stone-game-iii](https://github.com/ganesh8068/Stiver-DSA/tree/master/1406-stone-game-iii) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/ganesh8068/Stiver-DSA/tree/master/3514-number-of-unique-xor-triplets-ii) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/ganesh8068/Stiver-DSA/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 | [3536-maximum-product-of-two-digits](https://github.com/ganesh8068/Stiver-DSA/tree/master/3536-maximum-product-of-two-digits) |
@@ -254,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0486-predict-the-winner](https://github.com/ganesh8068/Stiver-DSA/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/ganesh8068/Stiver-DSA/tree/master/0877-stone-game) |
+| [1406-stone-game-iii](https://github.com/ganesh8068/Stiver-DSA/tree/master/1406-stone-game-iii) |
 ## Recursion
 |  |
 | ------- |

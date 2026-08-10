@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/ganesh8068/Stiver-DSA/tree/master/0035-search-insert-position) |
 | [0053-maximum-subarray](https://github.com/ganesh8068/Stiver-DSA/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ganesh8068/Stiver-DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0162-find-peak-element](https://github.com/ganesh8068/Stiver-DSA/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/ganesh8068/Stiver-DSA/tree/master/0169-majority-element) |
 | [0239-sliding-window-maximum](https://github.com/ganesh8068/Stiver-DSA/tree/master/0239-sliding-window-maximum) |
 | [0283-move-zeroes](https://github.com/ganesh8068/Stiver-DSA/tree/master/0283-move-zeroes) |
@@ -88,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/ganesh8068/Stiver-DSA/tree/master/0035-search-insert-position) |
+| [0162-find-peak-element](https://github.com/ganesh8068/Stiver-DSA/tree/master/0162-find-peak-element) |
 | [0222-count-complete-tree-nodes](https://github.com/ganesh8068/Stiver-DSA/tree/master/0222-count-complete-tree-nodes) |
 | [2540-minimum-common-value](https://github.com/ganesh8068/Stiver-DSA/tree/master/2540-minimum-common-value) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/ganesh8068/Stiver-DSA/tree/master/2812-find-the-safest-path-in-a-grid) |

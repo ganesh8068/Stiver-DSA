@@ -293,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0206-reverse-linked-list](https://github.com/ganesh8068/Stiver-DSA/tree/master/0206-reverse-linked-list) |
 | [0486-predict-the-winner](https://github.com/ganesh8068/Stiver-DSA/tree/master/0486-predict-the-winner) |
 ## Depth-First Search
 |  |
@@ -323,6 +324,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0206-reverse-linked-list](https://github.com/ganesh8068/Stiver-DSA/tree/master/0206-reverse-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/ganesh8068/Stiver-DSA/tree/master/0237-delete-node-in-a-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/ganesh8068/Stiver-DSA/tree/master/0876-middle-of-the-linked-list) |
 <!---LeetCode Topics End-->

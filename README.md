@@ -319,4 +319,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1510-stone-game-iv](https://github.com/ganesh8068/Stiver-DSA/tree/master/1510-stone-game-iv) |
+## Linked List
+|  |
+| ------- |
+| [0237-delete-node-in-a-linked-list](https://github.com/ganesh8068/Stiver-DSA/tree/master/0237-delete-node-in-a-linked-list) |
 <!---LeetCode Topics End-->

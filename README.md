@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1301-number-of-paths-with-max-score](https://github.com/ganesh8068/Stiver-DSA/tree/master/1301-number-of-paths-with-max-score) |
 | [1331-rank-transform-of-an-array](https://github.com/ganesh8068/Stiver-DSA/tree/master/1331-rank-transform-of-an-array) |
 | [1406-stone-game-iii](https://github.com/ganesh8068/Stiver-DSA/tree/master/1406-stone-game-iii) |
+| [1563-stone-game-v](https://github.com/ganesh8068/Stiver-DSA/tree/master/1563-stone-game-v) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/ganesh8068/Stiver-DSA/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [2029-stone-game-ix](https://github.com/ganesh8068/Stiver-DSA/tree/master/2029-stone-game-ix) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/ganesh8068/Stiver-DSA/tree/master/2149-rearrange-array-elements-by-sign) |
@@ -166,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1301-number-of-paths-with-max-score](https://github.com/ganesh8068/Stiver-DSA/tree/master/1301-number-of-paths-with-max-score) |
 | [1406-stone-game-iii](https://github.com/ganesh8068/Stiver-DSA/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/ganesh8068/Stiver-DSA/tree/master/1510-stone-game-iv) |
+| [1563-stone-game-v](https://github.com/ganesh8068/Stiver-DSA/tree/master/1563-stone-game-v) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/ganesh8068/Stiver-DSA/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/ganesh8068/Stiver-DSA/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3620-network-recovery-pathways](https://github.com/ganesh8068/Stiver-DSA/tree/master/3620-network-recovery-pathways) |
@@ -257,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/ganesh8068/Stiver-DSA/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/ganesh8068/Stiver-DSA/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/ganesh8068/Stiver-DSA/tree/master/1510-stone-game-iv) |
+| [1563-stone-game-v](https://github.com/ganesh8068/Stiver-DSA/tree/master/1563-stone-game-v) |
 | [2029-stone-game-ix](https://github.com/ganesh8068/Stiver-DSA/tree/master/2029-stone-game-ix) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/ganesh8068/Stiver-DSA/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/ganesh8068/Stiver-DSA/tree/master/3348-smallest-divisible-digit-product-ii) |
@@ -302,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/ganesh8068/Stiver-DSA/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/ganesh8068/Stiver-DSA/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/ganesh8068/Stiver-DSA/tree/master/1510-stone-game-iv) |
+| [1563-stone-game-v](https://github.com/ganesh8068/Stiver-DSA/tree/master/1563-stone-game-v) |
 | [2029-stone-game-ix](https://github.com/ganesh8068/Stiver-DSA/tree/master/2029-stone-game-ix) |
 ## Recursion
 |  |

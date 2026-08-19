@@ -1,33 +1,34 @@
 class Solution {
-
     public int maxNumberOfFamilies(int n, int[][] reservedSeats) {
-        int left = 0b11110000;
-        int middle = 0b11000011;
-        int right = 0b00001111;
+        HashMap<Integer, Integer> rows = new HashMap<>();
 
-        Map<Integer, Integer> occupied = new HashMap<Integer, Integer>();
         for (int[] seat : reservedSeats) {
-            if (seat[1] >= 2 && seat[1] <= 9) {
-                int origin = occupied.containsKey(seat[0])
-                    ? occupied.get(seat[0])
-                    : 0;
-                int value = origin | (1 << (seat[1] - 2));
-                occupied.put(seat[0], value);
+            int row = seat[0];
+            int col = seat[1];
+
+            if (col >= 2 && col <= 9) {
+                rows.put(row, rows.getOrDefault(row, 0) | (1 << col));
             }
         }
 
-        int ans = (n - occupied.size()) * 2;
-        for (Map.Entry<Integer, Integer> entry : occupied.entrySet()) {
-            int row = entry.getKey(),
-                bitmask = entry.getValue();
-            if (
-                (bitmask | left) == left ||
-                (bitmask | middle) == middle ||
-                (bitmask | right) == right
-            ) {
-                ++ans;
+        int answer = 2 * (n - rows.size());
+
+        int left = (1 << 2) | (1 << 3) | (1 << 4) | (1 << 5);
+        int middle = (1 << 4) | (1 << 5) | (1 << 6) | (1 << 7);
+        int right = (1 << 6) | (1 << 7) | (1 << 8) | (1 << 9);
+
+        for (int mask : rows.values()) {
+            boolean canLeft = (mask & left) == 0;
+            boolean canMiddle = (mask & middle) == 0;
+            boolean canRight = (mask & right) == 0;
+
+            if (canLeft && canRight) {
+                answer += 2;
+            } else if (canLeft || canMiddle || canRight) {
+                answer += 1;
             }
         }
-        return ans;
+
+        return answer;
     }
 }

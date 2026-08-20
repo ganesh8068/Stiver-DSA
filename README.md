@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1331-rank-transform-of-an-array](https://github.com/ganesh8068/Stiver-DSA/tree/master/1331-rank-transform-of-an-array) |
 | [1386-cinema-seat-allocation](https://github.com/ganesh8068/Stiver-DSA/tree/master/1386-cinema-seat-allocation) |
 | [1406-stone-game-iii](https://github.com/ganesh8068/Stiver-DSA/tree/master/1406-stone-game-iii) |
+| [1491-average-salary-excluding-the-minimum-and-maximum-salary](https://github.com/ganesh8068/Stiver-DSA/tree/master/1491-average-salary-excluding-the-minimum-and-maximum-salary) |
 | [1563-stone-game-v](https://github.com/ganesh8068/Stiver-DSA/tree/master/1563-stone-game-v) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/ganesh8068/Stiver-DSA/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [2029-stone-game-ix](https://github.com/ganesh8068/Stiver-DSA/tree/master/2029-stone-game-ix) |
@@ -144,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0628-maximum-product-of-three-numbers](https://github.com/ganesh8068/Stiver-DSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [1288-remove-covered-intervals](https://github.com/ganesh8068/Stiver-DSA/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/ganesh8068/Stiver-DSA/tree/master/1331-rank-transform-of-an-array) |
+| [1491-average-salary-excluding-the-minimum-and-maximum-salary](https://github.com/ganesh8068/Stiver-DSA/tree/master/1491-average-salary-excluding-the-minimum-and-maximum-salary) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/ganesh8068/Stiver-DSA/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/ganesh8068/Stiver-DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/ganesh8068/Stiver-DSA/tree/master/3517-smallest-palindromic-rearrangement-i) |

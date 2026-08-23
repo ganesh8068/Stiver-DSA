@@ -119,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ganesh8068/Stiver-DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0151-reverse-words-in-a-string](https://github.com/ganesh8068/Stiver-DSA/tree/master/0151-reverse-words-in-a-string) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/ganesh8068/Stiver-DSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [1927-sum-game](https://github.com/ganesh8068/Stiver-DSA/tree/master/1927-sum-game) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/ganesh8068/Stiver-DSA/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/ganesh8068/Stiver-DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/ganesh8068/Stiver-DSA/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
@@ -190,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/ganesh8068/Stiver-DSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1386-cinema-seat-allocation](https://github.com/ganesh8068/Stiver-DSA/tree/master/1386-cinema-seat-allocation) |
+| [1927-sum-game](https://github.com/ganesh8068/Stiver-DSA/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/ganesh8068/Stiver-DSA/tree/master/2029-stone-game-ix) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/ganesh8068/Stiver-DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/ganesh8068/Stiver-DSA/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
@@ -273,6 +275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1406-stone-game-iii](https://github.com/ganesh8068/Stiver-DSA/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/ganesh8068/Stiver-DSA/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/ganesh8068/Stiver-DSA/tree/master/1563-stone-game-v) |
+| [1927-sum-game](https://github.com/ganesh8068/Stiver-DSA/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/ganesh8068/Stiver-DSA/tree/master/2029-stone-game-ix) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/ganesh8068/Stiver-DSA/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/ganesh8068/Stiver-DSA/tree/master/3345-smallest-divisible-digit-product-i) |
@@ -323,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1406-stone-game-iii](https://github.com/ganesh8068/Stiver-DSA/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/ganesh8068/Stiver-DSA/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/ganesh8068/Stiver-DSA/tree/master/1563-stone-game-v) |
+| [1927-sum-game](https://github.com/ganesh8068/Stiver-DSA/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/ganesh8068/Stiver-DSA/tree/master/2029-stone-game-ix) |
 ## Recursion
 |  |

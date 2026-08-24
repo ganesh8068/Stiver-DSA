@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1491-average-salary-excluding-the-minimum-and-maximum-salary](https://github.com/ganesh8068/Stiver-DSA/tree/master/1491-average-salary-excluding-the-minimum-and-maximum-salary) |
 | [1563-stone-game-v](https://github.com/ganesh8068/Stiver-DSA/tree/master/1563-stone-game-v) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/ganesh8068/Stiver-DSA/tree/master/1674-minimum-moves-to-make-array-complementary) |
+| [1872-stone-game-viii](https://github.com/ganesh8068/Stiver-DSA/tree/master/1872-stone-game-viii) |
 | [2029-stone-game-ix](https://github.com/ganesh8068/Stiver-DSA/tree/master/2029-stone-game-ix) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/ganesh8068/Stiver-DSA/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/ganesh8068/Stiver-DSA/tree/master/2213-longest-substring-of-one-repeating-character) |
@@ -82,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1140-stone-game-ii](https://github.com/ganesh8068/Stiver-DSA/tree/master/1140-stone-game-ii) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/ganesh8068/Stiver-DSA/tree/master/1674-minimum-moves-to-make-array-complementary) |
+| [1872-stone-game-viii](https://github.com/ganesh8068/Stiver-DSA/tree/master/1872-stone-game-viii) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/ganesh8068/Stiver-DSA/tree/master/3739-count-subarrays-with-majority-element-ii) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/ganesh8068/Stiver-DSA/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## Tree
@@ -177,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1406-stone-game-iii](https://github.com/ganesh8068/Stiver-DSA/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/ganesh8068/Stiver-DSA/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/ganesh8068/Stiver-DSA/tree/master/1563-stone-game-v) |
+| [1872-stone-game-viii](https://github.com/ganesh8068/Stiver-DSA/tree/master/1872-stone-game-viii) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/ganesh8068/Stiver-DSA/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/ganesh8068/Stiver-DSA/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3620-network-recovery-pathways](https://github.com/ganesh8068/Stiver-DSA/tree/master/3620-network-recovery-pathways) |
@@ -275,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1406-stone-game-iii](https://github.com/ganesh8068/Stiver-DSA/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/ganesh8068/Stiver-DSA/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/ganesh8068/Stiver-DSA/tree/master/1563-stone-game-v) |
+| [1872-stone-game-viii](https://github.com/ganesh8068/Stiver-DSA/tree/master/1872-stone-game-viii) |
 | [1927-sum-game](https://github.com/ganesh8068/Stiver-DSA/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/ganesh8068/Stiver-DSA/tree/master/2029-stone-game-ix) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/ganesh8068/Stiver-DSA/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
@@ -326,6 +330,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1406-stone-game-iii](https://github.com/ganesh8068/Stiver-DSA/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/ganesh8068/Stiver-DSA/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/ganesh8068/Stiver-DSA/tree/master/1563-stone-game-v) |
+| [1872-stone-game-viii](https://github.com/ganesh8068/Stiver-DSA/tree/master/1872-stone-game-viii) |
 | [1927-sum-game](https://github.com/ganesh8068/Stiver-DSA/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/ganesh8068/Stiver-DSA/tree/master/2029-stone-game-ix) |
 ## Recursion
@@ -346,12 +351,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1140-stone-game-ii](https://github.com/ganesh8068/Stiver-DSA/tree/master/1140-stone-game-ii) |
 | [1510-stone-game-iv](https://github.com/ganesh8068/Stiver-DSA/tree/master/1510-stone-game-iv) |
+| [1872-stone-game-viii](https://github.com/ganesh8068/Stiver-DSA/tree/master/1872-stone-game-viii) |
 | [2029-stone-game-ix](https://github.com/ganesh8068/Stiver-DSA/tree/master/2029-stone-game-ix) |
 ## Zero-Sum Game
 |  |
 | ------- |
 | [1140-stone-game-ii](https://github.com/ganesh8068/Stiver-DSA/tree/master/1140-stone-game-ii) |
 | [1510-stone-game-iv](https://github.com/ganesh8068/Stiver-DSA/tree/master/1510-stone-game-iv) |
+| [1872-stone-game-viii](https://github.com/ganesh8068/Stiver-DSA/tree/master/1872-stone-game-viii) |
 | [2029-stone-game-ix](https://github.com/ganesh8068/Stiver-DSA/tree/master/2029-stone-game-ix) |
 ## Nim Game
 |  |

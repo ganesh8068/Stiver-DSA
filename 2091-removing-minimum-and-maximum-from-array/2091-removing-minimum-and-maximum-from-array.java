@@ -3,8 +3,12 @@ class Solution {
         int n = nums.length;
         int min = 0, max = 0;
         for (int i = 0; i < n; i++) {
-            min = nums[i] < nums[min] ? i : min;
-            max = nums[i] > nums[max] ? i : max;
+            if (nums[i] < nums[min]) {
+                min = i;
+            }
+            if (nums[i] > nums[max]) {
+                max = i;
+            }
         }
         int l = Math.min(min, max);
         int r = Math.max(min, max);

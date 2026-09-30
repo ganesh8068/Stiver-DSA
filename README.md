@@ -155,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/ganesh8068/Stiver-DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0940-distinct-subsequences-ii](https://github.com/ganesh8068/Stiver-DSA/tree/master/0940-distinct-subsequences-ii) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/ganesh8068/Stiver-DSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/ganesh8068/Stiver-DSA/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/ganesh8068/Stiver-DSA/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1927-sum-game](https://github.com/ganesh8068/Stiver-DSA/tree/master/1927-sum-game) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/ganesh8068/Stiver-DSA/tree/master/2213-longest-substring-of-one-repeating-character) |
@@ -381,6 +382,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/ganesh8068/Stiver-DSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/ganesh8068/Stiver-DSA/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -466,4 +468,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0836-rectangle-overlap](https://github.com/ganesh8068/Stiver-DSA/tree/master/0836-rectangle-overlap) |
 | [1401-circle-and-rectangle-overlapping](https://github.com/ganesh8068/Stiver-DSA/tree/master/1401-circle-and-rectangle-overlapping) |
+## Bracket Sequences
+|  |
+| ------- |
+| [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/ganesh8068/Stiver-DSA/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 <!---LeetCode Topics End-->
